@@ -1,5 +1,11 @@
-NoJSF - It' s skinny project, I should probably call for it really is, an archetype.
+NoJSF - It is a basic project which aims to be the base for project that do NOT want to use any obtrusive frameworks. This variant is based on the CDI standard (JSR 299 - WELD RI).
+The project uses RESTeasy for the REST layer and WELD (JSR 299 reference implementation) to provide injection between layers.
 
-If all you want is just html, js, css and a restful backend... you found what you were looking for.
+So, if all you want is just html, js, css and a restful backend... you found what you were looking for.
 
-This variant is based on the CDI standard (JSR 299).
+This is how it works:
+ - the user acts on the client sending an ajax request;
+ - the REST controller (aka restler) intercepts the request and delegates it to the business layer;
+ - the effective business component does the hard work and, if necessary, asks the persistence layer to query or persist entities/documents;
+ - the persistence component goes directly to the database through the appropriate and provided driver.
+The chain terminates with a HTTP code, hopefully a 200 or 201! ;)
