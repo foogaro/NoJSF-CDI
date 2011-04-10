@@ -1,0 +1,5 @@
+NoJSF - It' s skinny project, I should probably call for it really is, an archetype.
+
+If all you want is just html, js, css and a restful backend... you found what you were looking for.
+
+This variant is based on the CDI standard (JSR 299).
