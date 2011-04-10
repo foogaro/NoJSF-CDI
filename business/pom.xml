@@ -13,7 +13,7 @@
     <artifactId>nojsf-cdi-business</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>business</name>
+    <name>nojsf-cdi-business</name>
 
     <dependencies>
         <dependency>

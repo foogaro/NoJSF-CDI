@@ -13,7 +13,7 @@
     <artifactId>nojsf-cdi-restler</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>restler</name>
+    <name>nojsf-cdi-restler</name>
 
     <dependencies>
         <dependency>

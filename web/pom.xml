@@ -10,7 +10,7 @@
     <groupId>com.foogaro.nojsf</groupId>
     <artifactId>nojsf-cdi-web</artifactId>
     <packaging>war</packaging>
-    <name>web</name>
+    <name>nojsf-cdi-web</name>
 
     <dependencies>
 
